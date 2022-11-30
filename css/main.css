@@ -1,0 +1,478 @@
+body, .aboutPage, .contactsPage, .productsPage, .newsPage, .securePage, .trackPage
+{
+    /*background: none;*/
+    /*background: url(../img/page_background.jpeg) no-repeat center center fixed;*/
+    /*background: #000;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*font-family: 'Roboto Mono', monospace;*/
+    padding-top: 130px;
+}
+
+video#myVideo
+{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+div.introWrapper
+{
+    position: absolute;
+    top: 22em;
+    left: 25em;
+}
+
+/* Navigation Bar Styles */
+nav.navbar
+{
+    background: #154c79;
+}
+
+div.container-fluid
+{
+    flex-direction: column;
+}
+
+nav.navbar-brand
+{
+    margin-bottom: 1em;
+}
+
+nav.navbar .nav-item
+{
+    padding: 0 20px;
+}
+
+nav.navbar .nav-item .nav-link
+{
+    color: #fff;
+}
+
+/* Home page CSS */
+div.intro
+{
+    margin: 5em;
+    background: #000;
+    border-radius: 2em;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+div.introtext1_wrapper, div.introtext2_wrapper, div.exploreContainer, div.introtext3_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.introtext1_wrapper p.introtext1
+{
+    font-size: 5em;
+    color: #fff;
+}
+
+div.introtext2_wrapper p.introtext2
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 5em;
+    color: #fff;
+}
+
+div.introtext3_wrapper
+{
+    margin-bottom: 2em;
+}
+
+div.introtext3_wrapper p.introtext3
+{
+    font-size: 24px;
+    color: #fff;
+}
+
+div.exploreContainer .exploreBtn, div.exploreContainer .loginBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background: aliceblue;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #000;
+    margin: 0 1em;
+    width: 11em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div.whoContainer
+{
+    display: flex;
+    margin: 5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form.myForm
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1em;
+    width: 30em;
+    border-radius: 1em;
+    background: #154c79;
+    margin-bottom: 3em;
+}
+
+.myForm div.formIntroContainer
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.myForm div.myFormContainer label.outsideLabel
+{
+    color: #fff;
+}
+
+div.formIntroContainer .formIntro
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.formIntroContainer .formIntroSmall
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.myFormContainer
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+div.myFormContainer .form-floating
+{
+    margin-bottom: 1em;
+}
+
+div.signUpBtnContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.signUpBtnContainer .signUpBtn
+{
+    text-decoration: none;
+    color: black;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: aliceblue;
+}
+
+div.whoTextContainer
+{
+    font-size: 17px;
+    background: #154c79;
+    border-radius: 45px;
+    padding: 2em;
+    color: #fff;
+    margin: 2em;
+    margin-left: 0;
+}
+
+div.parentImgContainer
+{
+    background: url(../img/what_we_recycle.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: top;
+    height: 25em;
+}
+
+div.aboutIntroContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15em;
+    left: 60em;
+    background: #154c79;
+    border-radius: 45px;
+    padding: 2em;
+    color: #fff;
+}
+
+div.container
+{
+    margin-top: 8em;
+}
+
+div.col-xl-4
+{
+    margin-bottom: 2em;
+}
+
+.aboutContainer div.card .card-img-top
+{
+    height: 350px;
+}
+
+div.modal div.modal-body div.loginContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.modal div.modal-body div.loginContainer .loginSubmitBtn
+{
+    width: 6em;
+    border-radius: 10px;
+    background: #154c79;
+    border: none;
+    height: 3em;
+    color: #fff;
+}
+
+/* Secure Page CSS */
+div.secureContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.secureContainer .card-body .custPhone, .secureContainer .card-body .custStatus
+{
+    font-weight: bold;
+}
+
+.secureContainer .row
+{
+    padding: 1em;
+}
+
+.secureContainer .row .card
+{
+    margin: 1em;
+    padding: 1em;
+    width: 31% !important;
+    box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+    -webkit-box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+    -moz-box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+}
+
+.secureContainer .row .card .card-img-top
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 300px;
+}
+
+.secureContainer .row .card .card-text
+{
+    margin-bottom: 10px;
+}
+
+.secureContainer .actionBtnContainer
+{
+    margin-top: 2em;
+}
+
+.secureContainer .actionBtnContainer form
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secureContainer .simpleText
+{
+    font-size: 20px;
+}
+
+.viewContainer1
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0 !important;
+    margin-bottom: 2em;
+}
+
+.viewContainer1 .inProcessBtn, .viewContainer1 .acceptedBtn, .viewContainer1 .rejectedBtn, .viewContainer1 .completedBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background: #154c79;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.modal#inProcessModal .modal-body,
+.modal#acceptedModal .modal-body,
+.modal#rejectedModal .modal-body,
+.modal#completedModal .modal-body
+{
+    margin-top: 0 !important;
+}
+
+.modal#inProcessModal .row,
+.modal#acceptedModal .row,
+.modal#rejectedModal .row,
+.modal#completedModal .row
+{
+    padding: 1em;
+}
+
+.modal#inProcessModal .row .card,
+.modal#acceptedModal .row .card,
+.modal#rejectedModal .row .card,
+.modal#completedModal .row .card
+{
+    margin: 1em;
+    padding: 1em;
+    width: 47% !important;
+    box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+    -webkit-box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+    -moz-box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+}
+
+.modal#inProcessModal .row .card .card-img-top,
+.modal#acceptedModal .row .card .card-img-top,
+.modal#rejectedModal .row .card .card-img-top,
+.modal#completedModal .row .card .card-img-top
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 300px;
+}
+
+.modal#inProcessModal .row .card .card-text,
+.modal#acceptedModal .row .card .card-text,
+.modal#rejectedModal .row .card .card-text,
+.modal#completedModal .row .card .card-text
+{
+    margin-bottom: 10px;
+}
+
+.modal#inProcessModal .actionBtnContainer,
+.modal#acceptedModal .actionBtnContainer,
+.modal#rejectedModal .actionBtnContainer,
+.modal#completedModal .actionBtnContainer
+{
+    margin-top: 2em;
+}
+
+.modal#inProcessModal .actionBtnContainer form,
+.modal#acceptedModal .actionBtnContainer form,
+.modal#rejectedModal .actionBtnContainer form,
+.modal#completedModal .actionBtnContainer form
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bookNowModal .modal-dialog
+{
+    max-width: 600px;
+}
+
+#bookNowModal .modal-dialog .modal-body
+{
+    margin: 0;
+}
+
+#trackModal .modal-body .signUpBtn
+{
+    margin-top: 2em;
+    background: #154c79;
+    color: #fff;
+}
+
+.trackPage .requestsContainer
+{
+    margin: 1em;
+}
+
+.trackPage .requestsContainer .requests
+{
+    padding: 1em;
+    background: aliceblue;
+    border-radius: 15px;
+    margin: 1em;
+    width: 31%;
+}
+
+.trackPage .requestsContainer .custPhone, .trackPage .requestsContainer .custStatus
+{
+    font-weight: bold;
+}
+
+.trackPage .requestsContainer .statusText
+{
+    font-weight: bold;
+}
+
+.footerContainer
+{
+    background: #154c79;
+    padding: 2em;
+}
+
+.footerContainer .container-fluid
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer .container-fluid .footerImage
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer .footerContentContainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContainer .footerContentContainer .locationContainer
+{
+    color: #fff;
+}
+
+.footerContainer .footerContentContainer .footerContacts
+{
+    color: #fff;
+}
+
+.footerContainer .footerContentContainer .locationContainer p
+{
+    margin: 0;
+}
+
+.footerContainer .footerContentContainer .footerContacts p
+{
+    margin: 0;
+}
